@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="35d530a179bd4e139c8d7fa64ac19307" Name="Diagram1">
+        <EntityTypeShape EntityType="MVPModel.Customer" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVPModel.MainMenu" Width="1.5" PointX="3.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVPModel.Menu" Width="1.5" PointX="8.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVPModel.Product" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVPModel.Sale" Width="1.5" PointX="3.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVPModel.Store" Width="1.5" PointX="6.875" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVPModel.SubMenu" Width="1.5" PointX="6.375" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="MVPModel.Product_Sold" ManuallyRouted="false" />
+        <AssociationConnector Association="MVPModel.FK_SubMenu_MainMenu" ManuallyRouted="false" />
+        <AssociationConnector Association="MVPModel.FK_Sales_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MVPModel.FK_Sales_Store" ManuallyRouted="false" />
+        <AssociationConnector Association="MVPModel.FK_Store_Store" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

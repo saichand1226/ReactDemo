@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Products List</h2>
+
+<div id="Productlist">
+    @section ReactScripts {
+        <script src="~/Scripts/React/dist/AddEditProduct.bundle.js"></script>
+        <script src="~/Scripts/React/dist/DeleteProduct.bundle.js"></script>
+        <script src="~/Scripts/React/dist/FetchProduct.bundle.js"></script>
+
+    }
+
+</div>
